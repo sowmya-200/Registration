@@ -18,6 +18,8 @@ export class StudentComponent implements OnInit {
   student:Student=new Student();
   allStudent:Student[]=[];
 
+  StudentId= '';
+
 // url:string="https://localhost:44322/api/";
 
   constructor( private studentService:StudentService ) { }
