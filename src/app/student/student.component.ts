@@ -30,10 +30,10 @@ export class StudentComponent implements OnInit {
     this.studentService.AddStudent('https://localhost:44322/api/Student/AddStudent/',this.student).subscribe((responce:any)=>{
       if(responce!=null)
       {
-        alert("Data Saved");
+        alert("Data is Saved");
       }
       else{
-        alert("Data Failed")
+        alert("Data is Failed to load")
       }
     });
   }
